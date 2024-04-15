@@ -1,0 +1,342 @@
+*{
+      margin: auto;
+      padding: auto;
+      font-family:  sans-serif;
+      box-sizing: border-box;
+      margin-bottom: 4px;
+}
+
+.hero{
+      width: 100%;
+      height: 100vh;
+      background-image: url(./new.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+}
+nav{
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      padding: top 45px;
+      padding-left: 8%;
+      padding-right: 8%;
+}
+.logo{
+      color: darkred ;
+      font-size: 35px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      
+}
+.logo h2{
+      margin-bottom: 4px;
+      letter-spacing: 1.5px;
+}
+nav ul li{
+      list-style-type: none;
+      display: inline;
+      padding: 10px 25px;
+
+}
+nav ul li a{
+      color: white;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-weight: bold;
+ 
+}
+nav ul li a:hover{
+      color: darkred;
+      transition: .05s;
+
+}
+.bta {
+      color: whitesmoke;
+      background-color: darkred;
+      padding: 10px 25px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      border: 2px solid transparent;
+      /*transition: transform .05s;*/
+      
+
+}
+.bta:hover{
+      transform: scale(1.2);
+}
+.content{
+      position: absolute;
+      top: 50%;
+      left: 8%;
+
+}
+h1{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 50px;
+}
+h2{
+      color: white;
+      font-size: 25px;
+      margin-bottom: 50px;
+}
+h4{
+      color: white;
+      font-size: 15px;
+      letter-spacing: 1.5px;
+
+}
+.newletter form{
+      width: 390px;
+      max-width: 105%;
+      
+      position: relative;
+}
+.newletter form input:first-child{
+      display: inline-block;
+      width: 100%;
+      padding: 14px 130px 14px 15px;
+      border: 2px solid rgb(208, 254, 4);
+      outline: none;
+
+      border-radius: 30px;
+
+}
+.newletter form input:last-child{
+      position: absolute;
+      display: inline-block;
+      outline: none;
+      border: none;
+      border-radius: 30px;
+      padding: 10px 30px;
+      background-color: brown;
+      color: white;
+      box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+      top: 6px;
+      right: 6px;
+
+
+}
+.About{
+      width: 100%;
+      background-color: black;
+      padding: 100px 0px;
+}
+.About img{
+     
+      height: auto;
+      width: 430px;
+             
+      
+}
+.about-text{
+      width: 550px;
+      
+}
+.main{
+      width: 1130px;
+      max-width: 100%;
+      margin: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+      
+}
+.about-text h2{
+      color: white;
+      font-size: 75px;
+      margin-bottom: 20px;
+      text-transform: capitalize;
+}
+.about-text h5{
+      color: white;
+      letter-spacing: 2px;
+      font-size: 22px;
+      margin-bottom: 25px;
+      text-transform: capitalize;
+
+}
+.about-text p{
+      color: #fcfcfc;
+      font-size: 18px;
+      letter-spacing: 1.4px;
+      line-height: 28px;
+      margin-bottom: 25px;
+}
+button{
+      background-color: darkred;
+      color: white;
+      text-decoration: none;
+      border: solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .04s;
+}
+button:hover{
+      background-color: transparent;
+      border: 2px solid darkred;
+      cursor: pointer;
+
+}
+.services{
+      background-color: black;
+      width: 100%;
+      padding: 100px 0px;
+}
+.title h1{
+     color: white;
+      text-align: center;
+      font-size: 75px;
+      margin: 30px auto;
+      width: 1130px;
+
+}
+.box{
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+}
+
+.card{
+      height: 365;
+      width: 335;
+      padding: 20px 35px;
+      background: #191919;
+      border-radius: 20px;
+      margin: 15px;
+      position: relative;
+      text-align: center;
+      
+;
+}
+.card span{
+      font-size: 50px;
+      display: block;
+      text-align: center;
+      margin: 25px 0px;
+      color: darkred;
+      
+}
+.card h5{
+      color: white;
+      margin-bottom: 15px;
+      font-size: 23px;
+}
+.pra p{
+      color: #fcfc;
+      line-height: 27px;
+      font-size: 17px;
+      margin-bottom: 25px;
+
+}
+.pra .button{
+      background-color: darkred;
+            color: white;
+            text-decoration: none;
+            border: solid transparent;
+            font-weight: bold;
+            padding: 9px 22px;
+            border-radius: 30px;
+            transition: .06s;
+
+            
+}
+.pra .button:hover{
+      background-color: transparent;
+            border: 2px solid darkred;
+            cursor: pointer;
+
+}
+
+.contact-me{
+      width: 100%;
+      height: 290px;
+      background: #191919;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+
+
+}
+.contact-me p{
+      align-items:  center;
+      color: #fcfc;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: -180px;
+}
+.contact-me .button-two{
+      background-color: darkred;
+            color: white;
+            text-decoration: none;
+            border: solid transparent;
+            font-weight: bold;
+            padding: 13px 30px;
+            border-radius: 30px;
+            transition: .04s;
+
+
+}
+.contact-me .button-two:hover{
+      background-color: transparent;
+            border: 2px solid darkred;
+            cursor: pointer;
+}
+footer{
+      position: relative;
+      width: 100%;
+      height: 400px;
+      background-color: #191919;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+}
+footer p:nth-child(1){
+      font-size: 30px;
+      margin-bottom: 30px;
+      color: white;
+
+}
+footer p:nth-child(2){
+      color: white;
+      width: 500px;
+      font-size: 17;
+      text-align: center;
+      line-height: 26px;
+}
+.social{
+      display: flex;
+}
+.social a{
+      display: flex;
+      margin: 20px 12px;
+      width: 45%;
+      height: 45%;
+      border-radius: 100%;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+}
+.social a:hover{
+      transform: scale(1.2);
+      transition: .2s;
+
+}
+.end{
+      font-size: 15px;
+      position: absolute;
+      color: darkred;
+      bottom: -2px;
+
+}

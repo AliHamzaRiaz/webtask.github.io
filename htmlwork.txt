@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portpolio Website</title>
+      <link rel="stylesheet" href="./style.css">
+      
+            
+</head>
+<body>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--start hero section-->
+  <div class="hero">
+      <nav>
+            <h2 class="logo">Portp<span style="color: white;">olio</span> </h2>
+            <ul>
+                  <li><a href="#">Home </a></li>
+                  <li><a href="#">About </a></li>
+                  <li><a href="#">Services </a></li>
+                  <li><a href="#">Skill </a></li>
+                  <li><a href="#">Contact Us </a></li>
+            </ul>
+            <a href="#" class="bta">Suscribe</a>
+      </nav>
+      <div class="content">
+            <h4>Hello,My Name Is</h4>
+            <h1>Ali Hamza Riaz</h1>
+            <h2>I Am Wed Developer.</h2>
+            <div class="newletter">
+                  <form action="index.html">
+                        <input type="email" name="email" id="email" placeholder="Enter ySour Id">
+                        <input type="button" value="let start" id="email">
+                  </form>
+            </div>
+      </div>
+  </div>
+  
+<!--End hero section-->
+<!---Start About Section--> 
+<section class="About">
+
+ <div class="main">
+            <img src="./hamza.jpg" alt="img" >
+      
+      <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Developer <span style="color: crimson;" >& Designer</span> </h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem maiores quas maxime dolorum fugit? Neque labore fuga harum mollitia modi facilis odit! Accusamus cupiditate natus quisquam dolorem libero. Itaque, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ad harum eaque, animi suscipit beatae nihil quas fugiat culpa id soluta error.</p>
+            <button type="button">Let's Talk</button>
+      </div>
+</div>
+
+</section>
+
+
+<!---End About Section-->
+
+<!---Services Section-->
+
+<div class="services">
+      <div class="title">
+            <h1 >Our Services</h1>
+      </div>
+      <div class="box">
+            <div class="card">
+            <span><ion-icon name="wifi-outline"></ion-icon></span>
+                  <h5>Wed Developer</h5>
+            <div class="pra">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam repellendus quibusdam ullam excepturi?</p>
+                  <p>
+                  <a class="button" href="#">Read More</a>
+                  </p>
+                  
+
+            </div>
+      </div>
+      <div class="box">
+            <div class="card">
+                  <span><ion-icon name="people-outline"></ion-icon></span>
+                  <h5>Wed Developer</h5>
+            
+            <div class="pra">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam repellendus quibusdam ullam excepturi?</p>
+                  <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+      
+                  </p>
+      
+            </div>
+      </div>
+      <div class="box">
+            <div class="card">
+                  <span><ion-icon name="notifications-outline"></ion-icon></span>
+                  <h5>Wed Developer</h5>
+            
+            <div class="pra">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam repellendus quibusdam ullam excepturi?
+
+                  </p>
+                  <p style="text-align: center;">
+                        <a class="button" href="#">Read More</a>
+      
+                  </p>
+      
+            </div>
+      </div>
+      </div>
+      
+</div>    
+</div>
+<!---services Section-->
+
+<!---Contact Section-->
+
+<div class="contact-me">
+
+            <p>Let Me Get You A beautyful Wedsite</p>
+            <a class="button-two" href="03134996633">Hire Me </a>
+      </div>
+      <!---End of Contact Section-->
+
+      <!--footer start-->
+      <footer>
+            <p>Ali Hamza Riaz</p>
+            <p>If You Satisfied My Website Please Suscribe It</p>
+            <div class="social">
+               <span>   <a href="https://www.facebook.com/login/identify/?ctx=recover&from_login_screen=0"><ion-icon name="logo-facebook" id="facebook" name="facebook"></ion-icon></a></span>    
+                  <a href="#"><ion-icon name="logo-instagram"></ion-icon>></i></a>
+                  <a href="https://www.youtube.com/"><ion-icon name="logo-youtube" id="youtube" name="youtube"></ion-icon></a>
+            </div>
+            <p class="end">Copy Right By Ali Hamza Riaz</p>
+
+      </footer>
+
+
+
+
+
+
+</body>
+</html>
